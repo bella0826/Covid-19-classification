@@ -114,14 +114,6 @@ def fit(model,train_loader, val_loader, criterion, optimizer, num_epochs=10):
 
 train_acc_his, train_loss_his, val_acc_his, val_loss_his = fit(model, train_loader, valid_loader, criterion, optimizer, EPOCHS)
 
-'''plt.plot(range(EPOCHS), train_acc_his, "b-", label="Training ACC")
-plt.plot(range(EPOCHS), val_acc_his, "g-", label="Validation ACC")
-plt.title("Training & Validation Accuracy")
-plt.xlabel("Number of epochs")
-plt.ylabel("Accuracy")
-plt.legend()
-plt.savefig("./acc.jpg/")
-'''
 
 
 
