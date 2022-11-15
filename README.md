@@ -4,3 +4,6 @@
 ## 資料集
 
 COVID-19 Radiography Database
+
+## grad_cam_for_covid.py
+為訓練出來的模型做grad cam視覺化
