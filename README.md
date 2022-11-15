@@ -14,5 +14,6 @@ COVID-19 Radiography Database
 
 ## grad_cam.py
 使用另一種方式抓取梯度
+
 成功輸出heatmap圖
 
